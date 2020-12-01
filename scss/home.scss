@@ -1,0 +1,85 @@
+$textdark: #1A181D;
+$textlight:#939393;
+$fontnormal: 400;
+$font-mainsize: 1rem;
+$main-font:'Inter',
+sans-serif;
+
+.home {
+    font-family: $main-font;
+    font-weight: $fontnormal;
+    font-style: normal;
+    color: $textdark;
+}
+
+.main-position {
+    @media (min-width: 768px) {
+        padding-right: 2.5rem;
+        padding-left: 2.5rem
+    }
+}
+
+.first-screen-position {
+    margin-bottom: 6.125rem;
+}
+.first-screen{
+    width: 100%;
+    height: 37.5rem;
+    background-size: cover;
+    border-radius: 1rem;
+    @media (min-width: 480px) {
+        background:url("../img/header_back_sm.png") no-repeat;
+    }
+       
+    @media (min-width: 768px) {
+        background: url("../img/header_back.png") no-repeat;
+       
+        
+    }
+   
+}
+
+.home a {
+    text-decoration: none;
+
+}
+
+.header1 {
+    font-size: 3.5rem;
+    line-height: 4.235625rem;
+    font-weight: $fontnormal*2;
+}
+
+.header1--cateories-position {
+    margin-bottom: 5.75rem;
+}
+
+.header3 {
+    font-size: 1.25rem;
+    font-weight: 1.75*$fontnormal;
+    line-height: 1.5rem
+}
+
+.header2 {
+    font-size: 2.0625rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    letter-spacing: 0;
+
+    &::before {
+        content: "";
+        width: 1.6875rem;
+        height: 1.8125rem;
+        float: left;
+        margin-right: 1.3125rem;
+        background-image: url("../svg/email.svg");
+    }
+
+}
+
+.header2-position {
+      @media (min-width: 768px) {
+          margin-right: 5.25rem;
+      }
+    
+}

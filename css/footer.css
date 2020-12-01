@@ -1,0 +1,48 @@
+.footer-block {
+  background-color: #1A181D;
+  /*min-height: 16.875rem;*/
+  height: auto;
+}
+.footer-block a {
+  color: #ffffff;
+  line-height: 1.1875rem;
+}
+
+.left-list-position {
+  margin-top: 2.875rem;
+  margin-left: 2.5rem;
+}
+.left-list-position li {
+  margin-right: 3.75rem;
+}
+
+.right-list-position {
+  margin-top: 2.5625rem;
+  margin-left: 2.5rem;
+}
+.right-list-position li {
+  margin-right: 1.5rem;
+}
+
+.bottom-list-left-position {
+  margin-bottom: 1.5rem;
+}
+.bottom-list-left-position li {
+  margin-right: 2.5rem;
+}
+
+.bottom-list-right-position {
+  margin-bottom: 0.4375rem;
+  margin-right: 7.25rem;
+}
+.bottom-list-right-position a {
+  font-size: 0.6875rem;
+  line-height: 0.8125rem;
+  color: #FFFFFF;
+  opacity: 0.6;
+  width: 7.125rem;
+}
+
+.bottom-box-position {
+  margin-left: 2.5rem;
+}

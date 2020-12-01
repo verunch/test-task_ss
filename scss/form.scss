@@ -1,0 +1,46 @@
+$textdark: #1A181D;
+$textlight:#939393;
+$fontnormal: 400;
+$font-mainsize: 1rem;
+$main-font:'Inter',
+sans-serif;
+
+.emailbox-position {
+    padding-top: 8.5625rem;
+    padding-bottom: 8.3125rem;
+}
+
+.email-form {
+    .email-form__input {
+        padding: 0.875rem 0.875rem 0.9375rem 2.125rem;
+        height: 2.875rem;
+        border-radius: 1rem;
+        width: 100%;
+        margin-bottom:1rem;
+        @media (min-width: 768px) {
+            width: 24.3125rem;
+            font-size: 0.875rem;
+            line-height: 1rem;
+            border-radius: 1rem 0 0 1rem;
+            margin-bottom:0rem;
+        }
+
+    }
+
+    .email-form__button {
+        height: 2.875rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: $textdark;
+        &:active {
+            background-color:#2e2c2c;
+        }
+        @media (min-width: 768px) {
+           width: 7.5rem;
+           border-radius: 0 1rem 1rem 0;
+           background-color: $textdark;
+        }
+
+        
+    }
+}

@@ -1,0 +1,102 @@
+$textdark: #1A181D;
+$textlight:#939393;
+$fontnormal: 400;
+$font-mainsize: 1rem;
+$main-font:'Inter',
+sans-serif;
+
+/*wrapper*/
+.cards {
+    flex-wrap: wrap;
+}
+
+.cards-position {
+    margin-bottom: 3.75rem;
+}
+
+/**/
+
+.card {
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.08),
+        0px 0.500862px 3.38082px rgba(0, 0, 0, 0.0376483);
+    border-radius: 1rem;
+    /* max-width: 39rem;*/
+
+    @media (min-width: 768px) {
+        margin-right: 3rem;
+        width: 31.2%;
+        /*height: 17rem;*/
+        min-width: 468px;
+    }
+}
+
+.card-position {
+    padding: 0.5rem;
+    margin-bottom: 2.5rem;
+
+    @media (min-width: 768px) {
+        margin-right: 2rem;
+    }
+
+}
+
+.card__img-position {
+    @media (min-width: 576px) {
+        margin-right: 1.5rem;
+    }
+
+    @media (min-width: 600px) {
+        margin-right: 3rem;
+    }
+}
+
+.card__img {
+    width: 100%;
+    max-width: 16rem;
+    height: 16rem;
+}
+
+.card__a-position {
+    margin-bottom: 2.375rem;
+}
+
+.card__a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.0625rem;
+    letter-spacing: 0;
+    color:$textdark;
+
+}
+
+.card__arrow {
+    margin-left: 0.645625rem;
+}
+
+.card__name {
+    color: $textlight;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0;
+
+}
+
+.card__value {
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0;
+
+}
+
+.header3-card-position {
+    margin-top: 2rem;
+    margin-bottom: 1.3125rem;
+}
+
+.card__cells-position {
+    margin-bottom: 0.875rem;
+}
+
+.card__name-position {
+    margin-right: 1.6875rem;
+}

@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
+    <title>test-task</title>
+</head>
+
+<body class="d-flex flex-column h-100 home">
+    <!--header.html-->
+    <header class="home-header">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top navbar-position">
+            <a class="navbar-brand p-0 d-lg-none" href="#"><img src="svg/logo2.svg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex flex-column w-100">
+                    <div class="d-flex flex-lg-row">
+                       <a class="navbar-brand p-0 d-none d-lg-flex" href="#"><img src="svg/logo.svg"></a>
+                        <ul class="navbar-nav ml-auto d-flex align-items-center justify-content-end first-menu">
+                            <li class="nav-item mr-lg-5">
+                                <a class="nav-link btn px-0 js-search" data-toggle="collapse" data-target="#searchBox"
+                                    data-toggle="collapse" aria-controls="searchBox" aria-expanded="false"><img
+                                        src="svg/search.svg"></img></a>
+                            </li>
+                            <li class="nav-item mr-lg-5 dropdown">
+                                <a class="nav-link px-0 dropdown-toggle" href="#" id="navbarDropdownCurr" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownCurr">
+                                    <a class="dropdown-item" href="#">EUR</a>
+                                    <a class="dropdown-item" href="#">RUB</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown mr-lg-5">
+                                <a class="nav-link px-0 dropdown-toggle" href="#" id="navbarDropdownLang" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="
+                                    svg/flag.svg" class="link--mg">EN</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownLang">
+                                    <a class="dropdown-item" href="#">Rus</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mr-lg-4">
+                                <a class="nav-link text-uppercase a--loginlink">
+                                    Login
+                                </a>
+                            </li>
+                            <li class="nav-item mr-lg-4">
+                                <a class="nav-link">
+                                    Sign-up
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="searchBox" class="collapse w-100 search-container">
+                        <a class="search-container__close-button" data-target="#searchBox" data-toggle="collapse">
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                        <div class="d-flex align-items-center justify-content-center search-boxsize">
+                            <form class="form-inline my-2 my-lg-0  search-form">
+                                <input class="form-control search-form__input" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn my-2 my-sm-0 d-flex align-items-center justify-content-center
+                                    search-form__button" type="submit"><img src="svg/white-search.svg" /></button>
+
+                            </form>
+                        </div>
+                    </div>
+
+                    <ul class="navbar-nav mr-auto second-menu second-menu-position">
+                        <li class="nav-item active">
+                            <a class="nav-link a--active px-0" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link px-0" href="#">
+                                Auctions
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-0" href="#">Shops</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+            </div>
+        </nav>
+
+    </header>
+    <!--header.html-->
+
+    <main role="main main-position">
+        <div class="container-fluid d-none d-sm-block first-screen first-screen-position">
+        </div>
+        <div class="container-fluid categories">
+            <div class="d-flex justify-content-center">
+                <h1 class="header1 header1--cateories-position">Categories</h1>
+            </div>
+            <div class="cards cards-position d-flex justify-content-center">
+
+
+                <!--card.html-->
+                <div
+                    class="card card-position d-flex flex-sm-row justify-content-center align-items-center align-items-sm-start justify-content-sm-start">
+                    <img class="img-fluid card__img card__img-position" src="img/1.png" alt="">
+                    <div class="card__text d-flex flex-column h-100">
+                        <h3 class="header3 header3-card-position">Camera</h3>
+                        <div class="d-flex flex-row">
+                            <div class="card__name card__name-position">
+                                <div class="card__cells-position">Auctions</div>
+                                <div>Price form</div>
+                            </div>
+                            <div class="card__value">
+                                <div class="card__cells-position">1</div>
+                                <div>$2400</div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="mt-auto card__a card__a-position">view<img class="card__arrow"
+                                src="svg/arrow.svg"></a>
+                    </div>
+                </div>
+                <!--card.html-->
+
+
+
+                <!--card.html-->
+                <div
+                    class="card card-position d-flex flex-sm-row justify-content-center align-items-center align-items-sm-start justify-content-sm-start">
+                    <img class="img-fluid card__img card__img-position" src="img/2.png" alt="">
+                    <div class="card__text d-flex flex-column h-100">
+                        <h3 class="header3 header3-card-position">Camera</h3>
+                        <div class="d-flex flex-row">
+                            <div class="card__name card__name-position">
+                                <div class="card__cells-position">Auctions</div>
+                                <div>Price form</div>
+                            </div>
+                            <div class="card__value">
+                                <div class="card__cells-position">1</div>
+                                <div>$2400</div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="mt-auto card__a card__a-position">view<img class="card__arrow"
+                                src="svg/arrow.svg"></a>
+                    </div>
+                </div>
+                <!--card.html-->
+                <!--card.html-->
+                <div
+                    class="card card-position d-flex flex-sm-row justify-content-center align-items-center align-items-sm-start justify-content-sm-start">
+                    <img class="img-fluid card__img card__img-position" src="img/3.png" alt="">
+                    <div class="card__text d-flex flex-column h-100">
+                        <h3 class="header3 header3-card-position">Camera</h3>
+                        <div class="d-flex flex-row">
+                            <div class="card__name card__name-position">
+                                <div class="card__cells-position">Auctions</div>
+                                <div>Price form</div>
+                            </div>
+                            <div class="card__value">
+                                <div class="card__cells-position">1</div>
+                                <div>$2400</div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="mt-auto card__a card__a-position">view<img class="card__arrow"
+                                src="svg/arrow.svg"></a>
+                    </div>
+                </div>
+                <!--card.html-->
+
+                <!--card.html-->
+                <div
+                    class="card card-position d-flex flex-sm-row justify-content-center align-items-center align-items-sm-start justify-content-sm-start">
+                    <img class="img-fluid card__img card__img-position" src="img/4.png" alt="">
+                    <div class="card__text d-flex flex-column h-100">
+                        <h3 class="header3 header3-card-position">Camera</h3>
+                        <div class="d-flex flex-row">
+                            <div class="card__name card__name-position">
+                                <div class="card__cells-position">Auctions</div>
+                                <div>Price form</div>
+                            </div>
+                            <div class="card__value">
+                                <div class="card__cells-position">1</div>
+                                <div>$2400</div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="mt-auto card__a card__a-position">view<img class="card__arrow"
+                                src="svg/arrow.svg"></a>
+                    </div>
+                </div>
+                <!--card.html-->
+
+                <!--card.html-->
+                <div
+                    class="card card-position d-flex flex-sm-row justify-content-center align-items-center align-items-sm-start justify-content-sm-start">
+                    <img class="img-fluid card__img card__img-position" src="img/5.png" alt="">
+                    <div class="card__text d-flex flex-column h-100">
+                        <h3 class="header3 header3-card-position">Camera</h3>
+                        <div class="d-flex flex-row">
+                            <div class="card__name card__name-position">
+                                <div class="card__cells-position">Auctions</div>
+                                <div>Price form</div>
+                            </div>
+                            <div class="card__value">
+                                <div class="card__cells-position">1</div>
+                                <div>$2400</div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="mt-auto card__a card__a-position">view<img class="card__arrow"
+                                src="svg/arrow.svg"></a>
+                    </div>
+                </div>
+                <!--card.html-->
+                <!--card.html-->
+                <div
+                    class="card card-position d-flex flex-sm-row justify-content-center align-items-center align-items-sm-start justify-content-sm-start">
+                    <img class="img-fluid card__img card__img-position" src="img/6.png" alt="">
+                    <div class="card__text d-flex flex-column h-100">
+                        <h3 class="header3 header3-card-position">Camera</h3>
+                        <div class="d-flex flex-row">
+                            <div class="card__name card__name-position">
+                                <div class="card__cells-position">Auctions</div>
+                                <div>Price form</div>
+                            </div>
+                            <div class="card__value">
+                                <div class="card__cells-position">1</div>
+                                <div>$2400</div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="mt-auto card__a card__a-position">view<img class="card__arrow"
+                                src="svg/arrow.svg"></a>
+                    </div>
+                </div>
+                <!--card.html-->
+
+                <!--card.html-->
+                <div
+                    class="card card-position d-flex flex-sm-row justify-content-center align-items-center align-items-sm-start justify-content-sm-start">
+                    <img class="img-fluid card__img card__img-position" src="img/7.png" alt="">
+                    <div class="card__text d-flex flex-column h-100">
+                        <h3 class="header3 header3-card-position">Camera</h3>
+                        <div class="d-flex flex-row">
+                            <div class="card__name card__name-position">
+                                <div class="card__cells-position">Auctions</div>
+                                <div>Price form</div>
+                            </div>
+                            <div class="card__value">
+                                <div class="card__cells-position">1</div>
+                                <div>$2400</div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="mt-auto card__a card__a-position">view<img class="card__arrow"
+                                src="svg/arrow.svg"></a>
+                    </div>
+                </div>
+                <!--card.html-->
+
+                <!--card.html-->
+                <div
+                    class="card card-position d-flex flex-sm-row justify-content-center align-items-center align-items-sm-start justify-content-sm-start">
+                    <img class="img-fluid card__img card__img-position" src="img/8.png" alt="">
+                    <div class="card__text d-flex flex-column h-100">
+                        <h3 class="header3 header3-card-position">Camera</h3>
+                        <div class="d-flex flex-row">
+                            <div class="card__name card__name-position">
+                                <div class="card__cells-position">Auctions</div>
+                                <div>Price form</div>
+                            </div>
+                            <div class="card__value">
+                                <div class="card__cells-position">1</div>
+                                <div>$2400</div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="mt-auto card__a card__a-position">view<img class="card__arrow"
+                                src="svg/arrow.svg"></a>
+                    </div>
+                </div>
+                <!--card.html-->
+                <!--card.html-->
+                <div
+                    class="card card-position d-flex flex-sm-row justify-content-center align-items-center align-items-sm-start justify-content-sm-start">
+                    <img class="img-fluid card__img card__img-position" src="img/9.png" alt="">
+                    <div class="card__text d-flex flex-column h-100">
+                        <h3 class="header3 header3-card-position">Camera</h3>
+                        <div class="d-flex flex-row">
+                            <div class="card__name card__name-position">
+                                <div class="card__cells-position">Auctions</div>
+                                <div>Price form</div>
+                            </div>
+                            <div class="card__value">
+                                <div class="card__cells-position">1</div>
+                                <div>$2400</div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="mt-auto card__a card__a-position">view<img class="card__arrow"
+                                src="svg/arrow.svg"></a>
+                    </div>
+                </div>
+                <!--card.html-->
+            </div>
+        </div>
+        <div class="container-fluid d-flex justify-content-center emailbox emailbox-position">
+            <div class="d-flex flex-column flex-lg-row">
+                <h2 class="d-flex align-items-center header2 header2-position">Email Sign Up</h2>
+                <form class="form-inline my-2 my-lg-0 email-form">
+                    <input class="form-control email-form__input" type="input" placeholder="Email" aria-label="Email">
+                    <button
+                        class="btn text-white my-2 my-sm-0 d-flex align-items-center justify-content-center email-form__button"
+                        type="submit">Send</button>
+
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer mt-auto footer-block">
+        <div class="container-fluid p-0 h-100 d-flex flex-column">
+            <div class="d-flex flex-column flex-lg-row d-flex">
+                <ul class="nav d-block d-md-flex left-list left-list-position">
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="#">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="#">Platform News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="#">Platform News</a>
+                    </li>
+                </ul>
+                <ul class="nav d-block d-md-flex ml-auto right-list right-list-position">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="svg/twitter.svg" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="svg/instagram.svg" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="svg/facebook.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex flex-column flex-lg-row mt-auto bottom-box-position">
+                <ul class="nav d-block d-md-flex bottom-list-left bottom-list-left-position">
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="#">Privacy policy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="#">Term and condition</a>
+                    </li>
+                </ul>
+                <ul class="p-0 ml-lg-auto bottom-list-right bottom-list-right-position">
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="#">Development by Merkeleon</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+
+           
+        </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+  
+
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

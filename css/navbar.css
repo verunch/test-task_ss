@@ -1,0 +1,138 @@
+.navbar-position {
+  margin-bottom: 3rem;
+  padding-left: 2.3125rem;
+  padding-right: 2.6875rem;
+  padding-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .second-menu-position {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
+
+.home-navbar a {
+  font-size: 1rem;
+  line-height: 1.21;
+}
+
+.first-menu a {
+  color: #1A181D;
+  font-weight: 400;
+}
+.first-menu a:active {
+  color: #939393;
+}
+.first-menu a:hover {
+  color: #939393;
+}
+.first-menu a::after {
+  display: none;
+}
+.first-menu .a--loginlink {
+  font-weight: 800;
+}
+.first-menu .a--active,
+.first-menu .a--hover {
+  font-weight: 800;
+}
+
+.second-menu li {
+  padding-right: 3.5rem;
+}
+.second-menu a {
+  color: #939393;
+  font-weight: 800;
+  padding-bottom: 0.4375rem;
+  width: auto;
+}
+.second-menu a:active {
+  color: #1A181D;
+}
+.second-menu a:hover {
+  color: #1A181D;
+}
+.second-menu a::after {
+  display: none;
+}
+.second-menu .a--active,
+.second-menu .a--hover {
+  color: #1A181D;
+  border-bottom: #1A181D solid 2px;
+}
+
+.link--mg {
+  margin-right: 0.75rem;
+}
+
+/*search block*/
+.search-container {
+  height: 100%;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.search-boxsize {
+  background-color: #000000;
+  height: 12.5rem;
+}
+
+.search-container .search-form {
+  width: 90%;
+  height: 3rem;
+}
+@media (min-width: 768px) {
+  .search-container .search-form {
+    width: 31.2%;
+    height: 3rem;
+  }
+}
+
+.search-form .search-form__input {
+  border-radius: 1rem 0 0 1rem;
+  background-color: #ffffff;
+  width: 75.064%;
+  height: 2.875rem;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.875rem 0.875rem 0.9375rem 2.125rem;
+}
+@media (min-width: 768px) {
+  .search-form .search-form__input {
+    width: 80.064%;
+  }
+}
+
+.search-form__button {
+  border-radius: 0rem 1rem 1rem 0;
+  border: solid #ffffff 1px;
+  background-color: transparent;
+  width: auto;
+  height: 2.875rem;
+}
+.search-form__button:active {
+  background-color: #2e2c2c;
+}
+.search-form__button.active {
+  background-color: #2e2c2c;
+}
+@media (min-width: 1200px) {
+  .search-form__button {
+    width: 9.036%;
+  }
+}
+
+.search-container__close-button {
+  position: absolute;
+  top: 1.8125rem;
+  right: 2.8125rem;
+}
+.search-container__close-button span {
+  opacity: 1;
+  color: #ffffff;
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+/**/
